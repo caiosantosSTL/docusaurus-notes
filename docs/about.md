@@ -1,3 +1,3 @@
 # About
 
-This project was create using Docusaurus, Markdown, React and CSS
+This project was created using Docusaurus, Markdown, React and CSS
