@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Minhas notas',
-  tagline: 'Sobre as tecnologias',
+  title: 'My notes',
+  tagline: 'by Caio Santos',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Minhas notas',
+        title: 'My notes',
         logo: {
-          alt: 'Minhas notas',
+          alt: 'My Notes',
           src: 'img/note.svg',
         },
         items: [
@@ -53,7 +53,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Portifolio',
+            label: 'Notes',
           },
           {
             type: 'doc',
@@ -71,34 +71,22 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Notes',
                 to: '/docs/intro',
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
+
           {
             title: 'More',
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/caiosantosSTL',
+              },
+              {
+                label: 'My CV',
+                href: 'https://sveltekit-cv.vercel.app/',
               },
             ],
           },

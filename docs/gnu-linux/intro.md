@@ -1,3 +1,3 @@
-# Introdução
+# Introduction
 
-Aqui teremos comandos e uso de algumas distribuicoes gnu-linux. Teremos anotaoes de como usar um programa de terminal, instalacoes de programas e sistemas operacionais
+Here I will put notes about how certain commands work, how to install systems or programs.

@@ -1,3 +1,3 @@
 # Introdução
 
-Aqui teremos anotacoes e dicas do uso do blender, focado no processo de modelagem, textura, render e animacao basica
+Here I will add notes about Blender, tips and tricks to make modeling, texturing, animation and renders.
