@@ -18,16 +18,19 @@ Using the command `mkfs` we are able to format each partition
 ```
  mkfs.ext4 /dev/sda2
 ```
+
 > to format the root partition
 
 ```
 mkfs.fat -F32 /dev/sda1
 ```
+
 > to format the bios boot partition
 
 ```
 mkswap /dev/sda3
 ```
+
 > to create the swap area
 
 ## Mount file system
@@ -35,11 +38,13 @@ mkswap /dev/sda3
 ```
 mount /dev/sda2 /mnt
 ```
+
 > mount on /mnt , the dir where we will install the root directory of linux
 
 ```
 swapon /dev/sda3
 ```
+
 > to activate the swap area
 
 ## Install the basic system
@@ -47,9 +52,11 @@ swapon /dev/sda3
 ```
 pacstrap /mnt base linux linux-firmware
 ```
+
 > the command pacstrap is used to install the linux root directory
 
 When the pacstrap installation is ended, we will create a fstab file using this command:
+
 ```
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
@@ -67,6 +74,7 @@ Now we will out from the live CD directoy using the command `arch-chroot`
 ```
 arch-chroot /mnt 
 ```
+
 > using this command, we will enter at the hard disk directory root
 
 ## Hostname
@@ -76,7 +84,9 @@ Hostname is the name of our PC
 ```
 nano etc/hostname
 ```
+
 or
+
 ```
 echo "hostnamepc" >> /etc/hostname
 ```
@@ -86,6 +96,7 @@ echo "hostnamepc" >> /etc/hostname
 ```
 nano /etc/hosts
 ```
+
 Inside the hosts file we will write:
 
 ```
@@ -93,6 +104,7 @@ Inside the hosts file we will write:
 ::1       localhost.localdomain localhost
 127.0.1.1 hostnamepc.localdomain hostnamepc
 ```
+
 > note that, hostnamepc will be your hostname pc name
 
 ## Root password
@@ -128,9 +140,10 @@ There is a lot display manager to install, but in that example, we will install 
 ```
 pacman -Sy xorg-server xorg-xinit
 ```
+
 > the pacman is our package manager for Archlinux
 
-And install video driver 
+And install video driver
 
 ```
 pacman -Sy xf86-video-vesa
@@ -162,11 +175,13 @@ It is important install the networkmanager, and a terminal, well, gnome already 
 ```
 pacman -Sy networkmanager, xfce4-terminal
 ```
+
 > note that, exist a lot others terminal
 
 ```
 pacman -Sy ntfs-3g dosfstools
 ```
+
 > to be able arch linux understand ntfs and fat file system
 
 ## Install GRUB
@@ -182,6 +197,7 @@ and we install the grub
 ```
 grub-install /dev/sda
 ```
+
 > install it in all device
 
 ```
@@ -193,6 +209,7 @@ Doing this we will check if the display manager and network manager are active o
 ```
 systemctl status gdm
 ```
+
 > if you are using other display manager, put the name instead gdm
 
 If the status is not connected, we will conect using this command
@@ -202,6 +219,7 @@ systemctl enable gdm
 ```
 
 And possibly we need activate the newtwork manager
+
 ```
 systemctl enable NetworkManager
 ```

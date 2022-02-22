@@ -7,11 +7,13 @@ Feh commad is a image viewer and work with pictures
 ```
 feh image.png
 ```
+
 > we use this command to see a picture
 
 ```
 feh .
 ```
+
 > this command to see all images available in a current directory
 
 To exit from the image window, just click `q` from your keyboard
