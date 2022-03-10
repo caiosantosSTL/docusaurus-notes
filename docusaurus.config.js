@@ -61,6 +61,13 @@ const config = {
             position: 'left',
             label: 'About',
           },
+          {
+            type: 'doc',
+            docId: 'projects/intro',
+            position: 'left',
+            label: 'Projects',
+          },
+          
           
         ],
       },
