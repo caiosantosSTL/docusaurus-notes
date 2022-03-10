@@ -31,3 +31,5 @@
 This is a simple example of a list created using svelte, and also the possibility to remove a item from the list.
 
 ## VUE JS
+
+Soon
