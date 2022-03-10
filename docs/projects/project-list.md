@@ -8,6 +8,9 @@
 [Navbar](https://codepen.io/caiocodp/pen/KKyxvOv)
 > This is a Navbar component created using HTML, CSS. I also used Flexbox and Media query to make the navbar responsive.
 
+[Test css grid](https://codepen.io/caiocodp/pen/qBVMROa)
+> This project is just a test how the grid css works.
+
 ## TAILWINDCSS
 
 [Codesandbox tailwind landing page](https://codesandbox.io/s/brave-cannon-8jkdk0?file=/index.html)
