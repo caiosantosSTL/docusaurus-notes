@@ -13,7 +13,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-
+        
       </div>
     </header>
   );
@@ -26,6 +26,8 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="This is my site where I will post my notes about technologies that I use <head />">
       <HomepageHeader />
+
+      <HomepageFeatures/>
 
     </Layout>
   );

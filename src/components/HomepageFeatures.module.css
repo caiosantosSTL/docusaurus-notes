@@ -9,3 +9,10 @@
   height: 200px;
   width: 200px;
 }
+
+.rowx{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
