@@ -23,6 +23,7 @@ const FeatureList = [
     ),
     Url: 'https://sveltekit-cv.vercel.app/'
   },
+  
 
 ];
 
@@ -32,7 +33,7 @@ function Feature({Svg, title, description, Url}) {
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className={styles.desc}>
         <h3>
           <a href={Url}>{title}</a>
         </h3>
