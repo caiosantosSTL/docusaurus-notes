@@ -32,7 +32,10 @@
 
 [Svelte list](https://codesandbox.io/s/svelte-listloop-vpxssq)
 
-This is a simple example of a list created using svelte, and also the possibility to remove a item from the list.
+>This is a simple example of a list created using svelte, and also the possibility to remove a item from the list.
+
+[Online CV](https://sveltekit-cv.vercel.app/)
+> This project I created to show my personal CV
 
 ## VUE JS
 
