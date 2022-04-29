@@ -21,6 +21,7 @@
 [Pokemon Api using NextJs](https://next-tailwind-pokemon.vercel.app/)
 > This project I used Nextjs framework and I also used a [pokemon](https://pokeapi.co/) free API and tailwind to style the site.
 
+
 [API project example - jason placeholder](https://0xbwdk.csb.app/)
 > This project I used the jasonplaceholder API to create a simple page, with content loader button. This project also was create using the codesandbox website.
 
@@ -35,4 +36,5 @@ This is a simple example of a list created using svelte, and also the possibilit
 
 ## VUE JS
 
-Soon
+[Front end with 3D model](https://vue-and-babylon-test.vercel.app/)
+> This project is a prototype. I used babylonJs to be able to add a 3d model on html. I also used the VueCLI to create this project.
