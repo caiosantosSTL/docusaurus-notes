@@ -13,6 +13,8 @@ undefined
 
 ---
 
+### Reverse
+
 ```js
 > doo.reverse()
 [ 'c', 'b', 'a' ]
@@ -21,6 +23,8 @@ undefined
 > Reverse method will just reverse our array
 
 ---
+
+### ForEach
 
 ```js
 > doo.forEach(s => console.log(s))
@@ -31,6 +35,8 @@ undefined
 ```
 
 > Creating a loop using the method forEach, but we also are able to do that using `map()`
+
+### Using Map
 
 ```js
 > doo.map(a => a)
@@ -104,6 +110,8 @@ undefined
 
 ```
 
+### Upper Case
+
 Here we will upper case the index 0
 
 ```js
@@ -112,6 +120,8 @@ Here we will upper case the index 0
 ```
 
 And also we can lower case the index 2
+
+### Lower Case
 
 ```js
 > tt[2].toLowerCase()
@@ -129,6 +139,8 @@ undefined
 
 And then, we will replace that string `AAAA`
 
+### Replace
+
 ```js
 > st.replace('AAAA', 'AXAX')
 'AXAX SSSSS'
@@ -139,6 +151,8 @@ And then, we will replace that string `AAAA`
 ---
 
 Now we will se how to slice a string:
+
+### Slice
 
 ```js
 > var st2 = st.replace('AAAA', 'AXAX')
@@ -153,6 +167,8 @@ undefined
 ---
 
 Using the split
+
+### Split
 
 ```js
 > var aa = 'AAA SS DD'
