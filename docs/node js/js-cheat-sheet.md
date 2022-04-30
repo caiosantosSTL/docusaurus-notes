@@ -98,6 +98,55 @@ undefined
 
 ```
 
+---
+
+### Concat
+
+This method will allow us to join arrays
+
+```js
+> a = [1,2,3]
+[ 1, 2, 3 ]
+> b = [11,22,33]
+[ 11, 22, 33 ]
+> j = a.concat(b)
+[ 1, 2, 3, 11, 22, 33 ]
+> j
+[ 1, 2, 3, 11, 22, 33 ]
+```
+
+---
+
+### Fill
+
+Example to how fill an array with a specific valor
+
+```js
+> var aa = ['aa', 'bb', 'cc']
+undefined
+> aa.fill('xoxo')
+[ 'xoxo', 'xoxo', 'xoxo' ]
+> aa
+[ 'xoxo', 'xoxo', 'xoxo' ]
+```
+
+---
+
+### Join
+
+Join allow us transform a array into a string, joing all the index
+
+```js
+> var ww = ['aaaa', 'bbbbb', 'uuuuuu']
+undefined
+> ww.join(" ")
+'aaaa bbbbb uuuuuu'
+> ww.join("-")
+'aaaa-bbbbb-uuuuuu'
+> ww.join(" -*- ")
+'aaaa -*- bbbbb -*- uuuuuu'
+```
+
 ## String manipulation
 
 Here we create a simple array with string
@@ -196,3 +245,83 @@ undefined
 [ 'sasa', ' aa', ' dd', ' gg' ]
 
 ```
+
+---
+
+### Repeat
+
+Now, how to use the repeat method:
+
+```js
+> var hi = 'hi!'
+undefined
+> hi.repeat(3)
+'hi!hi!hi!'
+```
+
+---
+
+### Search
+
+Search will show us the index of a string, if such string does not exist, the output will be -1
+
+```js
+> var st = 'A bb ccc'
+undefined
+> st.search("bb")
+2
+> st.search("A")
+0
+> st.search("ccc")
+5
+```
+
+> As we can see, the `bb` string starts in the index 2, the `A` starts in the index 0
+
+```js
+> st.search("sssss")
+-1
+```
+
+> If the string does not exist, the output is -1
+
+---
+
+### Trim
+
+Trim is interesting, because it will delete from our string, useless spaces
+
+```js
+> var aa = '    sdad sad     dasd       '
+undefined
+> aa
+'    sdad sad     dasd       '
+> aa.trim()
+'sdad sad     dasd'
+```
+
+> We can notice that trim delete space from the beginning and end of the string
+
+---
+
+## Functions
+
+Here a example using annonymous function and arrow function
+
+```js
+> var x = () => 'hi'
+undefined
+> x
+[Function: x]
+> x()
+'hi'
+> var xx = function(){ return 'hello' }
+undefined
+> xx()
+'hello'
+> var ss = xx
+undefined
+> ss()
+'hello'
+```
+
