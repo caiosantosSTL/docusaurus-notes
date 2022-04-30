@@ -2,7 +2,7 @@
 
 ## Array manipulation methods
 
-Those examples was made from **node CLI**
+Those examples was made from **node REPL**
 
 ```js
 > var doo = ['a', 'b', 'c']
