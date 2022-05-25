@@ -35,9 +35,12 @@
 >This is a simple example of a list created using svelte, and also the possibility to remove a item from the list.
 
 [Online CV](https://sveltekit-cv.vercel.app/)
-> This project I created to show my personal CV
+> This project I created to show my personal CV.
 
 ## VUE JS
 
 [Front end with 3D model](https://vue-and-babylon-test.vercel.app/)
 > This project is a prototype. I used babylonJs to be able to add a 3d model on html. I also used the VueCLI to create this project.
+
+[Project consuming the Hacker News API](https://vuejs-story-api.vercel.app/)
+> This project was created using the Hacker News API.
