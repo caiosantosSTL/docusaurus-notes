@@ -36,6 +36,8 @@ undefined
 
 > Creating a loop using the method forEach, but we also are able to do that using `map()`
 
+---
+
 ### Using Map
 
 ```js
@@ -97,6 +99,35 @@ undefined
 [ 'jos 12', 'nika 23' ]
 
 ```
+
+---
+
+### Using Filter
+
+This method we use to filter a array, and in there we can add a condictional to filter it
+
+```javascript
+> const array = [1, 23, 44, 5, 6, 76, 767]
+undefined
+> array.filter(v => v > 10)
+[ 23, 44, 76, 767 ]
+> array.filter(v => v > 40)
+[ 44, 76, 767 ]
+
+```
+
+---
+
+### Using Reduce
+
+```javascript
+> const array2 = [1, 2, 3]
+undefined
+> array2.reduce((ac, val) => ac + val)
+6
+```
+> In this example, we are adding all number inside of array, that means, we are doing this `1+2+3`, and then, to do that kind of operation, we can use reduce, where we are able to create operations and accumulate each result.
+>> reduce we can use 4 values in the parameter, `accumulate`, `values_array`, `index_value`, `current_array`. In this example, `ac` is the accumulate and `val` is value
 
 ---
 
@@ -324,4 +355,3 @@ undefined
 > ss()
 'hello'
 ```
-
