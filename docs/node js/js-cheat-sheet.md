@@ -24,6 +24,37 @@ undefined
 
 ---
 
+### Slice
+
+```javascript
+> const arr = [1, 2, 3, 4, 5, 6, 7 ,8, 9, 10, 11]
+undefined
+
+> arr.slice(1,5)
+[ 2, 3, 4, 5 ]
+
+> arr.slice(3)
+[
+  4, 5,  6,  7,
+  8, 9, 10, 11
+]
+
+```
+
+>Slice we are able to specify the beginning and the final where we want to cut from an array
+
+```javascript
+> const arr = [1, 2, 3, 4, 5, 6, 7 ,8, 9, 10, 11]
+
+> arr.slice(3, 8)
+[ 4, 5, 6, 7, 8 ]
+
+```
+
+> This example, as we can see, we specify that we going to cut all number under 4, and cut all number above 8
+
+---
+
 ### ForEach
 
 ```js
