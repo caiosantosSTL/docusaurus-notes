@@ -54,6 +54,14 @@ undefined
 > This example, as we can see, we specify that we going to cut all number under 4, and cut all number above 8
 >> It is important to notice, the number is the index for each value
 
+```javascript
+> const abc = ['a','b','c','d','e','f','g']
+undefined
+> abc.slice(3,5)
+[ 'd', 'e' ]
+
+```
+
 ---
 
 ### ForEach
