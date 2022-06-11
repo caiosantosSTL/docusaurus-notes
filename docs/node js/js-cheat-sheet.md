@@ -395,3 +395,55 @@ undefined
 > ss()
 'hello'
 ```
+
+---
+
+## Spread operator
+
+```javascript
+> const ax = (...a) => `${a} --`
+undefined
+
+> ax(112,23,34,45,65)
+'112,23,34,45,65 --'
+
+> const bx = (a) => `${a} -- `
+undefined
+
+> bx(121,231,231,3123,32,342)
+'121 -- '
+```
+
+> Spread operator `...` allows us to add multiples args into the parameter
+
+```javascript
+> const string = 'mariana'
+undefined
+> string
+'mariana'
+> const artring = [...string]
+undefined
+> artring
+[
+  'm', 'a', 'r',
+  'i', 'a', 'n',
+  'a'
+]
+```
+
+> And also it allows us to transform a string into a array easily
+
+```javascript
+> const ar = [1,2,3]
+undefined
+> const ar2 = [ar]
+undefined
+> ar2
+[ [ 1, 2, 3 ] ]
+> const ar3 = [...ar]
+undefined
+> ar3
+[ 1, 2, 3 ]
+```
+
+> Or avoid to add a array A into another array B, but transform the array A as a B
