@@ -44,3 +44,6 @@
 
 [Project consuming the Hacker News API](https://vuejs-story-api.vercel.app/)
 > This project was created using the Hacker News API.
+
+[Project consuming the JSONplaceholder](https://vue3-api-project.vercel.app/)
+> This project was created using VUE 3 and the free API JSONplaceholder.
