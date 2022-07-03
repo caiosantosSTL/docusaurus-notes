@@ -11,6 +11,9 @@
 [Test css grid](https://codepen.io/caiocodp/pen/qBVMROa)
 > This project is just a test how the grid css works.
 
+[JS code project](https://replit.com/@caiosantosSTL)
+> This is a project about my javascript codes
+
 ## TAILWINDCSS
 
 [Codesandbox tailwind landing page](https://codesandbox.io/s/brave-cannon-8jkdk0?file=/index.html)
