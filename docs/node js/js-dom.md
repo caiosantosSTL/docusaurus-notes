@@ -33,8 +33,7 @@ The HTML code is that below
 
 ```
 
-Now we going to press control + shift + i, that shortcut will open a devtools window, and 
-using that tool, we will use the console and write some javascript codes and manipulate the DOM.
+Now we going to press control + shift + i (firefox browser), that shortcut will open a devtools window, and using that tool, we will use the console and write some javascript codes and manipulate the DOM.
 
 ![picture](../../static/img/md-img/pic2.png)
 
