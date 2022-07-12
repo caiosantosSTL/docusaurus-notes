@@ -52,3 +52,6 @@
 
 [Project consuming the JSONplaceholder](https://vue3-api-project.vercel.app/)
 > This project was created using VUE 3 and the free API JSONplaceholder.
+
+[Project notepad online](https://my-fast-notes.vercel.app/)
+> This project was created using VUE 3. This is a simple note app to take notes and save it.
