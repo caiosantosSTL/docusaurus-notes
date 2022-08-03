@@ -33,9 +33,9 @@ CREATE TABLE "persons" (
 ```
 > The sqlite code
 
-We now will analyze this code above. We are creating the columns of the table, so, the id column is INTEGER, and that means, in this column only will acept numeric values, and also this column is NOT NULL, always it needs have a value. The id column is a Primary Key and AUTOINCREMENT, that means the id column is a ID literally, and automatically the id number will be added when we populate a row.
+We now will analyze this code above. We are creating the columns of the table, so, the id column is INTEGER, and that means, in this column only will accept numeric values, and also this column is NOT NULL, always it needs have a value. The id column is a Primary Key and AUTOINCREMENT, that means the id column is a ID literally, and automatically the id number will be added when we populate a row.
 
-The name column is TEXT, that means, in this columns only will acept a textual or string values. If a number is added in this column, that will be a string number symbol and that number will be not able to be used in arithmetic operations.
+The name column is TEXT, that means, in this columns only will accept a textual or string values. If a number is added in this column, that will be a string number symbol and that number will be not able to be used in arithmetic operations.
 
 Check [here](https://www.sqlite.org/datatype3.html) all the column types
 
