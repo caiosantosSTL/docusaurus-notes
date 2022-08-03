@@ -139,6 +139,6 @@ Now we are going to clean that joined tables. We will take out these id columns.
 
 ![pic](../../static/images/pic11.png)
 
-> We can specify the columns that we want to see.
+> We can especify the columns that we want to see.
 
 The same logic can be applied to the directors table.
