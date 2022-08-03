@@ -25,10 +25,10 @@ const config = {
           trackingID: 'GTM-5KWDNS7',
           anonymizeIP: true,
         },
-/*         googleAnalytics: {
+        googleAnalytics: {
           trackingID: 'UA-141789564-1',
           anonymizeIP: true,
-        }, */
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
