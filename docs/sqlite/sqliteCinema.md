@@ -67,7 +67,7 @@ CREATE TABLE "actors" (
 
 In this table we can see the FOREIGN KEY, and what is this? First we create the id column, and then the foreign id column, for example the `id_person` and `id_movie`. The id_person column and id_movie are foreign key column, that column will receive a id from another table (the Primary key ID from another table).
 
-The id_movie, for example, will receive the Primary key ID from the table movies, and the same logic to the id_person column. This line `FOREIGN KEY("id_person") REFERENCES "persons"("id"),` means, the id_person is a foreign key and that column makes a reference to ID Primary Key from the table persons. Therefore the id_person column is conected to ID column from the persons table, and the same logic to the column id_movie.
+The id_movie, for example, will receive the Primary key ID from the table movies, and the same logic to the id_person column. This line `FOREIGN KEY("id_person") REFERENCES "persons"("id"),` means, the id_person is a foreign key and that column makes a reference to ID Primary Key from the table persons. Therefore the id_person column is connected to ID column from the persons table, and the same logic to the column id_movie.
 
 ## Directors table
 
@@ -85,7 +85,7 @@ CREATE TABLE "directors" (
 
 ## Add content
 
-Using DB Browser we will add content in all the tables.
+Using DB Browser we will add contents in all the tables.
 
 ![pic](../../static/images/pic1.png)
 
