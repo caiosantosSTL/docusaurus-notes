@@ -23,6 +23,10 @@ In the `directors` table, we will add the column `id`, `id_peoples` and `id_movi
 
 Using [DB Browser](https://sqlitebrowser.org/) and [Sqlite](https://www.sqlite.org/index.html) technologies, we will create the person table:
 
+![pic](../../static/images/picPerson.png)
+
+> This is the graphical way to create the table in DB Browser
+
 ```sql
 CREATE TABLE "persons" (
 	"id"	INTEGER NOT NULL,
@@ -52,6 +56,10 @@ CREATE TABLE "movies" (
 ```
 
 ## Actors table
+
+![pic](../../static/images/picActors.png)
+
+> The graphical way to create the table in DB Browser
 
 ```sql
 CREATE TABLE "actors" (
