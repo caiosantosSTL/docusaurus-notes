@@ -55,3 +55,6 @@
 
 [Project notepad online](https://my-fast-notes.vercel.app/)
 > This project was created using VUE 3. This is a simple note app to take notes and save it.
+
+[Project nature site](https://nature-info-site-57wn2q1jo-caiosantosstl.vercel.app/)
+> This project was created using VUE 3. This is a simple site using the nuxt api about nature information.
